@@ -9,26 +9,26 @@ Features of the module:
 Technologies used to implement:
 
 	Java 1.7
-	Spring 4.0,
-	JAX-RS 2.0 (RESTful Web ServiceS), 
-	Hibernate 4.3, 
-	H2 in-memory database, 
-	Tomcat Server 7, 
-	Maven, 
-	Eclipse.
+	Spring 4.0
+	JAX-RS 2.0 (RESTful Web ServiceS)
+	Hibernate 4.3
+	H2 in-memory database
+	Tomcat Server 7
+	Maven
+	Eclipse
 
 For unit testing:
 
-	junit 4.4, 
-	easymock 3.3.
+	Junit 4.4
+	Easymock 3.3
 
 Integration-test to test the interface end to end:
 
-	Springtest 2.5. 
+	Springtest 2.5
 
 For logging:
 
-	log4j. 
+	log4j
 
 Build and Deployment instrutctions:
 
@@ -69,4 +69,6 @@ Testing REST Endpoints:
 	{"code":2,"message":"User deleted Successfully !"}
 
 
-Note: Regarding InMemoery DB Persistnece implementation,able to save the data to file/disk before JVM/application shutdown. But unable to load it back to use when the application re-starts.
+
+Note: 
+Regarding InMemoery DB Persistnece implementation,able to save the data to file/disk before JVM/application shutdown. But unable to load it back to use when the application re-starts.
