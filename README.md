@@ -1,18 +1,20 @@
 # user-registration
 	This module is developed for User Registration process, using the In-memory DB, RESTful and Spring 
 Features of the module:
+
 	1) Adds a new user
 	2) Deletes a user
 	3) Lists all the registered users
 
 Technologies used to implement:
-	Java 1.7, 
-	Spring 4.0, 
+
+	Java 1.7
+	Spring 4.0,
 	JAX-RS 2.0 (RESTful Web ServiceS), 
 	Hibernate 4.3, 
 	H2 in-memory database, 
 	Tomcat Server 7, 
-	Mavens, 
+	Maven, 
 	Eclipse.
 
 For unit testing:
@@ -20,16 +22,20 @@ For unit testing:
 	easymock 3.3.
 
 Integration-test to test the interface end to end:
+
 	Springtest 2.5. 
 
 For logging:
+
 	log4j. 
 
 Build and Deployment instrutctions:
+
 	1) mvn clean package (its create user-registration.war file). 
 	2) Deploy war filr from step 1 to web server. 
 
 Testing REST Endpoints:
+
 
 1. To add a user to system
 	URL:http://localhost:9080/user-registration/user/add
